@@ -44,19 +44,12 @@ require("lazy").setup {
     -- { import = "lazyvim.plugins.extras.util.project" },
     { import = "plugins" },
     -- Add the supermaven-nvim plugin
-    {
-      "supermaven-inc/supermaven-nvim",
-      config = function()
-        require("supermaven-nvim").setup {}
-      end,
-    },
-    {
-      "numToStr/Comment.nvim",
-      opts = {
-        -- add any options here
-      },
-      lazy = false,
-    },
+    -- {
+    --   "supermaven-inc/supermaven-nvim",
+    --   config = function()
+    --     require("supermaven-nvim").setup {}
+    --   end,
+    -- },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
